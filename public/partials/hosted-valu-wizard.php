@@ -21,7 +21,7 @@ $terms_text .= __( 'to proceed with the transaction', 'amazon_payment_services' 
 	<div class="otp_generation_msg aps_success"></div>
 	<div class="aps-row">
 		<div class="aps-col-sm-9 aps-pad-none">
-			<input type="password" class="form-control no-outline input-text aps_valu_otp" placeholder="<?php echo __( 'Enter OTP', 'amazon_payment_services' ); ?>" onKeyPress="return keyLimit(this,10)" autocomplete="off"/>
+			<input type="pas" class="form-control no-outline input-text aps_valu_otp" placeholder="<?php echo __( 'Enter OTP', 'amazon_payment_services' ); ?>" onKeyPress="return keyLimit(this,10)" autocomplete="off"/>
 		</div>
 		<div class="aps-col-sm-3 aps-pad-none">
 			<button type="button" class="valu_otp_verify aps-btn"><?php echo __( 'Verify OTP', 'amazon_payment_services' ); ?></button>
